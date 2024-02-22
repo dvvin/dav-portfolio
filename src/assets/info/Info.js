@@ -63,6 +63,7 @@ export const info = {
       'React',
       'Express.js',
       'Node.js',
+      'Django',
       'Bootstrap',
       'Tailwind',
       'Ruby on Rails'
@@ -101,20 +102,30 @@ export const info = {
       label: 'TV Shows',
       emoji: '📺',
     },
+    {
+      label: 'Coffee',
+      emoji: '☕',
+    }
   ],
 
   portfolio: [
     {
-      title: 'Vaquero Scheduler',
+      title: 'Vaquero Scheduler (Next, React, PostgreSQL)',
       live: 'https://vaquero-scheduler.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/dvvin/vaquero-scheduler', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://raw.githubusercontent.com/dvvin/vaquero-scheduler/master/public/example.png',
     },
     {
-      title: 'E-Sports Manager',
+      title: 'E-Sports Manager (MERN)',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/dvvin/E-Sports-Manager', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://raw.githubusercontent.com/dvvin/E-Sports-Manager/main/public/homepage.png',
+    },
+    {
+      title: 'helloWorld (Vite, Django, SQLite)',
+      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/dvvin/hello-world-social-network', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://raw.githubusercontent.com/dvvin/hello-world-social-network/main/helloworld_frontend/public/profilepage.png',
     },
   ],
 };
