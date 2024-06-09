@@ -27,7 +27,7 @@ export const info = {
 
   socials: [
     {
-      link: 'https://davin0.netlify.app/Davin_Davila_Resume_April_2024.pdf',
+      link: 'https://davin0.netlify.app/Davin_Davila_Resume__June_2024.pdf',
       icon: 'fa fa-user-circle',
       label: 'resume',
     },
@@ -46,38 +46,41 @@ export const info = {
   bio: "Hello! I'm Davin Davila. I'm a Full-Stack developer with an interest in web development and designing algorithms. I graduated from the University of Texas Rio Grande Valley with a major in Computer Science. I enjoy building websites, software, and studying the implementation of data structures and algorithms.",
 
   skills: {
-    languages: [
-      'JavaScript',
-      'TypeScript',
-      'HTML/CSS',
-      'SQL',
-      'C/C++',
-      'Java',
-      'Python',
-      'Rust',
-      'Ruby',
-    ],
+    languages: ['JavaScript', 'TypeScript', 'SQL', 'C#', 'C/C++', 'Java', 'Python', 'Rust', 'Ruby'],
 
-    frameworks: [
+    frontend: [
       'Next.js',
       'React',
-      'Express.js',
-      'Node.js',
-      'Django',
-      'Bootstrap',
+      'Angular',
+      'Vite',
+      'Vue',
+      'HTML/CSS',
       'Tailwind',
-      'Ruby on Rails'
+      'Bootstrap',
+      'SCSS',
     ],
-    databases: ['SQLite', 'PostgreSQL', 'MySQL', 'MongoDB', 'Prisma'],
 
-    cloudServices: ['Firebase', 'Netlify', 'Render', 'Vercel'],
+    backend: [
+      'Node.js',
+      'Express.js',
+      '.NET Core',
+      'Django',
+      'Ruby on Rails',
+      'SQLite',
+      'PostgreSQL',
+    ],
 
     tools: [
       'Git',
       'Linux',
-      'npm',
-      'yarn',
-      'Jira'
+      'Docker',
+      'Jira',
+      'Netlify',
+      'Render',
+      'Firebase',
+      'Prisma',
+      'Vercel',
+      'DigitalOcean',
     ],
   },
 
@@ -105,10 +108,16 @@ export const info = {
     {
       label: 'Coffee',
       emoji: '☕',
-    }
+    },
   ],
 
   portfolio: [
+    {
+      title: 'Vapor Shop (Angular, .NET Core, PostgreSQL)',
+      live: 'https://vapor-shop.xyz', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/dvvin/vapor-shop-e_commerce', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://raw.githubusercontent.com/dvvin/vapor-shop-e_commerce/master/client/src/assets/images/shopPage.png',
+    },
     {
       title: 'Vaquero Scheduler (Next, React, PostgreSQL)',
       live: 'https://vaquero-scheduler.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
@@ -125,7 +134,8 @@ export const info = {
       title: 'helloWorld (Vite, Django, SQLite)',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/dvvin/hello-world-social-network', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://raw.githubusercontent.com/dvvin/hello-world-social-network/main/helloworld_frontend/public/profilepage.png',
+      image:
+        'https://raw.githubusercontent.com/dvvin/hello-world-social-network/main/helloworld_frontend/public/profilepage.png',
     },
   ],
 };
