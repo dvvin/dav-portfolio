@@ -27,7 +27,7 @@ export const info = {
 
   socials: [
     {
-      link: 'https://davin0.netlify.app/Davin_Davila_Resume__June_2024.pdf',
+      link: 'https://davin0.netlify.app/Davin_Davila_Resume__July_2024_',
       icon: 'fa fa-user-circle',
       label: 'resume',
     },
