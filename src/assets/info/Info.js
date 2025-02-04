@@ -27,7 +27,7 @@ export const info = {
 
   socials: [
     {
-      link: 'https://davin0.netlify.app/Davin_Davila_Resume__July_2024_.pdf',
+      link: 'https://davin0.netlify.app/Davin_Davila_Resume.pdf',
       icon: 'fa fa-user-circle',
       label: 'resume',
     },
@@ -43,7 +43,7 @@ export const info = {
     },
   ],
 
-  bio: "Hello! I'm Davin Davila. I'm a Full-Stack developer with an interest in web development and designing algorithms. I graduated from the University of Texas Rio Grande Valley with a major in Computer Science. I enjoy building websites, software, and studying the implementation of data structures and algorithms.",
+  bio: "Hello! I'm Davin Davila. I'm an aspiring Software Engineer!",
 
   skills: {
     languages: ['JavaScript', 'TypeScript', 'SQL', 'C#', 'C/C++', 'Java', 'Python', 'Rust', 'Ruby'],
